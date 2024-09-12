@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1165px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 30px;
+}
+
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__icons, .header__btns {
+  display: flex;
+  align-items: center;
+}
+
+.header__search {
+  margin-right: 40px;
+}
+
+.btn {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #156963;
+  padding: 8px 33px;
+}
+
+.btn_w {
+  color: #156963;
+  background-color: #fff;
+}
+
+.main__pic {
+  position: absolute;
+  z-index: -100;
+  background: url("../img/bg-main.jpg") no-repeat center center/cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.main__wrap {
+  display: flex;
+}
+
+.main__right {
+  margin-left: 120px;
+  margin-top: 110px;
+}
+
+.main__block {
+  text-align: left;
+  margin-right: 56px;
+}
+
+.main__title {  
+  font-weight: 500;
+  font-size: 68px;
+  margin-bottom: 24px;
+  color: #156963;
+}
+
+.main__text {
+  text-align: left;
+  font-weight: normal;
+  width: 493px;
+}
+
+.main__prev-next {
+  display: flex;
+  margin-top: 110px;
+  font-size: 32px;
+}
+
+.main__prev, .main__next {
+  display: flex;
+  flex-direction: column;
+  padding: 39px 49px;
+}
+
+.main__prev {
+  margin-right: 102px;
+}
+
+.main__next {
+  background-color: #156963;
+}
+
+.main__prev-text, .main__next-text {
+  color: #156963;
+}
+
+.main__next-text {
+  color: white;
+}
+
+.advantages, .market, .text, .flower, .flower_vase, .BgGet, .TextInBgGet, .visitShop__btns, .inputEmail, .planthouse, .q, .produk {
+  margin: 76px 56px;
+}
+
+.email {
+  margin: 140px auto 0;
+}
+
+.inputEmail input {
+  font-size: 14px; 
+}
+
+.submit {
+  margin-top: 216px; 
+}
